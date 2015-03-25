@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD4B6E6E1AC26170004057AF /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B6E6D1AC26170004057AF /* Menu.swift */; };
 		DD66156B1AC257C3009A40D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66156A1AC257C3009A40D8 /* AppDelegate.swift */; };
 		DD66156D1AC257C3009A40D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66156C1AC257C3009A40D8 /* ViewController.swift */; };
 		DD6615701AC257C4009A40D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD66156E1AC257C4009A40D8 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD4B6E6D1AC26170004057AF /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		DD6615651AC257C3009A40D8 /* TableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6615691AC257C3009A40D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD66156A1AC257C3009A40D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				DD6615711AC257C4009A40D8 /* Images.xcassets */,
 				DD6615731AC257C4009A40D8 /* LaunchScreen.xib */,
 				DD6615681AC257C3009A40D8 /* Supporting Files */,
+				DD4B6E6D1AC26170004057AF /* Menu.swift */,
 			);
 			path = TableViews;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4B6E6E1AC26170004057AF /* Menu.swift in Sources */,
 				DD66156D1AC257C3009A40D8 /* ViewController.swift in Sources */,
 				DD66156B1AC257C3009A40D8 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				DD6615861AC257C4009A40D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD6615871AC257C4009A40D8 /* Build configuration list for PBXNativeTarget "TableViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				DD6615891AC257C4009A40D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

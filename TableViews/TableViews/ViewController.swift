@@ -16,11 +16,40 @@ class ViewController: UIViewController, UITableViewDelegate {
   // - dataSource
   // - delegate
 
-  var cellContent = ["Rob", "Kirsten", "Tommy", "Ralphie"]
+  var menu: Menu!
   
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    let dishes = [
+      MenuItem(name: "Pernil Asado", ingredients: nil),
+      MenuItem(name: "Sancocho", ingredients: nil),
+      MenuItem(name: "Roast Chicken", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil),
+      MenuItem(name: "Cubano", ingredients: nil)
+    ]
+    
+    menu = Menu(name: "Casa Adela", dishes: dishes, drinks: nil)
   }
 
   override func didReceiveMemoryWarning() {
@@ -30,7 +59,7 @@ class ViewController: UIViewController, UITableViewDelegate {
 
   // return number of rows in table
   func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return cellContent.count
+    return menu.dishes!.count
   }
   
   // defines content of each individual cell
@@ -38,7 +67,7 @@ class ViewController: UIViewController, UITableViewDelegate {
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "myCellId")
     
-    cell.textLabel?.text = cellContent[indexPath.row]
+    cell.textLabel?.text = menu.dishes![indexPath.row].name
     
     return cell
   }
