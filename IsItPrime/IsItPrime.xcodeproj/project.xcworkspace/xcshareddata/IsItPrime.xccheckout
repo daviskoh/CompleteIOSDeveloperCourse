@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6CB1DF76-4A5D-4880-B373-A4DCEB2685A6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IsItPrime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>49AF193D2B783E44FCD9603646C1EBC33A5F5008</key>
+		<string>github.com:daviskoh/IsItPrime.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IsItPrime.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>49AF193D2B783E44FCD9603646C1EBC33A5F5008</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:daviskoh/IsItPrime.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>49AF193D2B783E44FCD9603646C1EBC33A5F5008</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>49AF193D2B783E44FCD9603646C1EBC33A5F5008</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IsItPrime</string>
+		</dict>
+	</array>
+</dict>
+</plist>
